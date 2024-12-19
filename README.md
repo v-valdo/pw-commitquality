@@ -1,6 +1,6 @@
 # Scope
 
-**Fixture Demo** - _product-list.spec.ts_
+## Fixture Demo - _product-list.spec.ts_
 
 1. Login using credentials "test:test"
 2. Make sure user lands on homepage
@@ -12,7 +12,7 @@
 
 
 
-**POM Demo** - _product-actions.spec.ts_
+## POM Demo - _product-actions.spec.ts_
 1. Go to product page
 2. Add a new product
 3. Make sure it takes you to home page
