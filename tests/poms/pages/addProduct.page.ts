@@ -1,6 +1,6 @@
 import { expect, Page } from '@playwright/test';
-import ProductActions from './sections/productActions.section';
-import ProductForm from './sections/productForm.section';
+import ProductActions from '../sections/productActions.section';
+import ProductForm from '../sections/productForm.section';
 
 export default class AddProductPage {
     page: Page;

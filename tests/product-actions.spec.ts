@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import ProductsPage from './poms/pages/products.page';
 import AddProductPage from './poms/pages/addProduct.page';
 
-test.skip('product test without POM', async ({ page }) => {
+test('product test without POM', async ({ page }) => {
     await page.goto('https://commitquality.com/');
     await page.getByRole('link', { name: 'Add a product' }).first().click();
 

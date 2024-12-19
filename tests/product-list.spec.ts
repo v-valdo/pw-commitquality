@@ -3,7 +3,7 @@ import { expect, test } from "./fixtures/fixtures.ts";
 test.use({ baseURL: "https://commitquality.com/" });
 
 // Using Fixtures to extend test method
-test.describe.skip('test dynamic list', () => {
+test.describe('test dynamic list', () => {
   test("product list should show 10 items", async ({ countProducts }) => {
     let count = await countProducts();
     expect(count).toBe(10);
