@@ -31,7 +31,7 @@ test('basic test with POM', async ({ page }) => {
     await productsPage.goto();
     await productsPage.clickAddProductLink();
     await addProductPage.goto();
-    await addProductPage.addNewComputer('product 12', '125', '1994-06-14');
+    await addProductPage.addNewProduct('product 12', '125', '1994-06-14');
     await productsPage.filterProducts('product 12');
 
     expect(await productsPage.firstProductDate().textContent()).toBe('1994-06-14');
