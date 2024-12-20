@@ -18,7 +18,7 @@ export default class AddProductPage {
     }
 
     // master method
-    public async addNewComputer(productName: string, productPrice: string, productDate: string) {
+    public async addNewProduct(productName: string, productPrice: string, productDate: string) {
         await this.productForm.enterProductDetails(productName, productPrice, productDate);
         await this.productActions.createNewProduct();
     }
